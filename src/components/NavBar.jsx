@@ -3,10 +3,10 @@ function NavBar() {
     <>
       <nav>
         <div className="flex shadow-sm p-6 ">
-          <ul className="flex gap-10 text-gray-700 text-m font-sans font-semibold hover:text-gray-900 cursor-pointer">
-            <li>Resume</li>
-            <li>Pricing</li>
-            <li>Cover Letter</li>
+          <ul className="flex gap-10 text-gray-900 text-m font-sans font-semibold  cursor-pointer">
+            <li className="hover:text-[#5f4dc7]">Resume</li>
+            <li className="hover:text-[#5f4dc7]">Pricing</li>
+            <li className="hover:text-[#5f4dc7]">Cover Letter</li>
           </ul>
         </div>
       </nav>
