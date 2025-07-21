@@ -2,7 +2,7 @@ import { FaLock } from "react-icons/fa6";
 
 function HeroSection() {
   return (
-    <section className="px-6 sm:px-8 md:px-12 py-10">
+    <section className="px-6 sm:px-8 md:px-30 py-10">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-5 items-center gap-8">
         {/* Text Section (3/5 width on md+) */}
         <div className="md:col-span-3">
@@ -14,8 +14,8 @@ function HeroSection() {
             Is your resume good enough?
           </h1>
 
-          <p className="text-gray-600 dark:text-gray-300 text-base sm:text-lg mt-4">
-            A free and fast AI resume checker doing 16 crucial checks to ensure your resume is ready to perform and get you interview callbacks.
+          <p className="text-gray-600 dark:text-gray-300 text-base sm:text-lg mt-4 ">
+            A free and fast AI resume checker doing 16 crucial checks to ensure <br/>your resume is ready to perform and get you interview callbacks.
           </p>
 
           {/* Upload Box */}
