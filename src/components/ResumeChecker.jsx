@@ -1,9 +1,9 @@
 function ResumeChecker() {
   return (
-    <section className="px-4 sm:px-6 md:px-30 py-10 mt-4">
+    <section className="px-4 sm:px-6 md:px-30 py-10 mt-4 mb-10">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-8">
         {/* Video Section */}
-        <div className=" flex justify-center z-50 mt-6 md:mt-0">
+        <div className=" flex justify-center z-50 mt-6 md:mt-0 ">
           <video
             autoPlay
             loop
