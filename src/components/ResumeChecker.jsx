@@ -22,7 +22,7 @@ function ResumeChecker() {
             Rewrite your resume with AI
           </h1>
 
-          <p className="text-gray-600 dark:text-gray-300 font-normal text-base sm:text-lg mt-4 leading-normal">
+          <p className="text-gray-600  font-normal text-base sm:text-lg mt-4 leading-normal">
             Get your resume rewritten by the world’s best AI engine (ChatGPT
             4.0) in combination with tailored prompts and a fine-tuned model
             based on your resume and the job ad you’re applying for to save

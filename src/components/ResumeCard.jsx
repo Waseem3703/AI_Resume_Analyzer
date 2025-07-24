@@ -1,8 +1,6 @@
 import ResumeCardItem from "./ResumeFeatureCard";
 
-
 const leftColumn = [
-  
   {
     title: "",
     features: [
@@ -48,18 +46,16 @@ const bottomColumn = [
   }
 ];
 
-
-
 function ResumeCard() {
   return (
-    <section className="px-6 sm:px-8 md:px-30 py-30 bg-gradient-to-r from-black via-gray-900 to-blue-600">
-      <div className="grid grid-cols-3 gap-6">
+    <section className="px-4 sm:px-6 md:px-12 lg:px-20 py-16 bg-gradient-to-r from-black via-gray-900 to-blue-600">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Full-width heading */}
-        <div className="col-span-3 text-center mb-20">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-white mb-4">
+        <div className="col-span-1 md:col-span-3 text-center mb-12">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-white mb-4 leading-snug">
             Our AI-powered resume checker goes beyond typos and punctuation
           </h2>
-          <p className="text-xl sm:text-lg text-gray-300">
+          <p className="text-base sm:text-lg md:text-xl text-gray-300">
             We’ve built-in ChatGPT to help you create a resume that’s tailored
             to the position you’re applying for.
           </p>
@@ -67,9 +63,11 @@ function ResumeCard() {
 
         {/* Left Column */}
         <div>
-          <div className="text-white mb-10">
-            <h3 className="text-4xl mb-4">Resume optimization checklist</h3>
-            <p className="text-lg">
+          <div className="text-white mb-6">
+            <h3 className="text-2xl sm:text-3xl font-bold mb-3">
+              Resume optimization checklist
+            </h3>
+            <p className="text-base sm:text-lg text-gray-200">
               We check for 16 crucial things across 5 different categories on
               your resume including content, file type, and keywords in the most
               important sections of your resume. Here’s a full list of the
@@ -98,4 +96,5 @@ function ResumeCard() {
     </section>
   );
 }
+
 export default ResumeCard;

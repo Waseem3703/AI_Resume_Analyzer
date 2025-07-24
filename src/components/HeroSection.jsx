@@ -46,7 +46,7 @@ function HeroSection() {
     <section className="px-6 sm:px-8 md:px-30 py-10">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-5 items-center gap-8">
         <div className="md:col-span-3">
-          <span className="text-indigo-600 dark:text-gray-300 text-xs uppercase block mt-4 sm:mt-6">
+          <span className="text-indigo-600 text-xs uppercase block mt-4 sm:mt-6">
             Resume Checker
           </span>
 
@@ -54,7 +54,7 @@ function HeroSection() {
             Is your resume good enough?
           </h1>
 
-          <p className="text-gray-600 dark:text-gray-300 text-base sm:text-lg mt-4 ">
+          <p className="text-gray-600  text-base sm:text-lg mt-4 ">
             A free and fast AI resume checker doing 16 crucial checks to ensure <br />
             your resume is ready to perform and get you interview callbacks.
           </p>
@@ -65,7 +65,7 @@ function HeroSection() {
               <div className="text-green-600 text-sm font-medium animate-pulse">Analyzing your resume...</div>
             ) : (
               <form className="space-y-4">
-                <p className="text-sm text-gray-700 dark:text-gray-300">
+                <p className="text-sm text-gray-700 ">
                   Drop your resume here or click to upload.
                   <br />
                   <span className="text-gray-500 dark:text-gray-400">
@@ -100,7 +100,7 @@ function HeroSection() {
         {/* Image Section */}
         <div className="md:col-span-2 flex justify-center mt-10 md:mt-0">
           <img
-            src="/HeroSection.svg"
+            src="/resume2.svg"
             alt="AI Resume Checker"
             className="max-w-full h-auto w-4/5 sm:w-3/4 md:w-full mix-blend-multiply"
           />
